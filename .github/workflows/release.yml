@@ -48,8 +48,10 @@ jobs:
          path: dist/
      - name: Install github cli
        run: sudo apt-get install gh
+     - name: Install conventional-changelog-cli
+       run: npm install -g conventional-changelog-cli
      - name: Generate release notes
-       run: npx conventional-changelog-cli -p angular -r 1 > RELEASE_NOTES.md
+       run: conventional-changelog-cli -p angular -r 1 > RELEASE_NOTES.md
      - name: Create github release
        env:
          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
