@@ -1,3 +1,12 @@
+# [2.2.0](https://github.com/biemch/biem-github-actions-playground/compare/2.1.1...2.2.0) (2025-01-16)
+
+
+### Features
+
+* test 2.2.0 release ([a1066aa](https://github.com/biemch/biem-github-actions-playground/commit/a1066aa9233495b1a9fb70af2401f032b7e11c95))
+
+
+
 ## [2.1.1](https://github.com/biemch/biem-github-actions-playground/compare/2.1.0...2.1.1) (2025-01-16)
 
 
