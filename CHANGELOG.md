@@ -1,4 +1,13 @@
-# [2.1.0](https://github.com/biemch/biem-github-actions-playground/compare/v2.0.3...v2.1.0) (2025-01-16)
+## [2.1.1](https://github.com/biemch/biem-github-actions-playground/compare/2.1.0...2.1.1) (2025-01-16)
+
+
+### Bug Fixes
+
+* add version prefix ([6e02ba9](https://github.com/biemch/biem-github-actions-playground/commit/6e02ba9d900f5b50cd27a902219261905193a4bc))
+
+
+
+# [2.1.0](https://github.com/biemch/biem-github-actions-playground/compare/v2.0.3...2.1.0) (2025-01-16)
 
 
 ### Features
