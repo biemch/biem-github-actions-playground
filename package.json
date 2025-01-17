@@ -1,6 +1,6 @@
 {
   "name": "biem-github-actions-playground",
-  "version": "2.5.1",
+  "version": "2.6.0",
   "description": "act-test",
   "type": "module",
   "author": "Michael Freund <michael@biem.ch>",
@@ -12,8 +12,6 @@
   "devDependencies": {
     "@biem/eslint-config": "^2.1.5",
     "@eslint/js": "^9.18.0",
-    "conventional-changelog-cli": "^5.0.0",
-    "conventional-changelog-conventionalcommits": "^8.0.0",
     "eslint": "^9.18.0",
     "globals": "^15.14.0",
     "typescript": "^5.7.3"
