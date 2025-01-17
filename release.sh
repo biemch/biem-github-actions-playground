@@ -15,11 +15,13 @@
 #    - Update the version in package.json (without committing the tag)
 #    - Generate and update the CHANGELOG.md
 #    - Commit the changes to the release branch
-#    - Create a merge request to the main branch for review
+#    - Push the release branch to the remote repository
+#    - Create a pull request (PR) to merge into the main branch
 #
 # Requirements:
 # - Git installed and properly configured
 # - npm (for versioning)
+# - GitHub CLI (`gh`) installed and authenticated
 
 ##################################################
 # CONFIGURATION
@@ -102,5 +104,8 @@ git add package.json CHANGELOG.md
 # Commit the staged changes
 git commit -m "chore(release): $VERSION"
 
-# Create merge request to main branch
-git request-pull $RELEASE_BRANCH $MAIN_BRANCH
+# Push the release branch to the remote repository
+git push origin $RELEASE_BRANCH
+
+# Open a pull request for the release branch
+gh pr create --base $MAIN_BRANCH --head $RELEASE_BRANCH --title "Release $VERSION" --body "Automated release PR for version $VERSION"
