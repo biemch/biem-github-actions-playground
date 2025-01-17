@@ -1,4 +1,19 @@
-# [2.2.0](https://github.com/biemch/biem-github-actions-playground/compare/2.1.1...2.2.0) (2025-01-16)
+# [2.5.0](https://github.com/biemch/biem-github-actions-playground/compare/v2.2.0...v2.5.0) (2025-01-17)
+
+
+### Bug Fixes
+
+* release tag prefix ([067936c](https://github.com/biemch/biem-github-actions-playground/commit/067936c7f4f03b47042bf0b337b5b65c23481ba3))
+
+
+### Features
+
+* automate release process with new script and update release workflow ([68cd61f](https://github.com/biemch/biem-github-actions-playground/commit/68cd61f53643caddf30e45afbaabc4644e3c1829))
+* enhance release script to push branch and create pull request ([a88af8b](https://github.com/biemch/biem-github-actions-playground/commit/a88af8bc1c0121bf40098ca43a602cb0dc7bdb94))
+
+
+
+# [2.2.0](https://github.com/biemch/biem-github-actions-playground/compare/2.2.0...v2.2.0) (2025-01-16)
 
 
 ### Features
@@ -7,7 +22,7 @@
 
 
 
-## [2.1.1](https://github.com/biemch/biem-github-actions-playground/compare/2.1.0...2.1.1) (2025-01-16)
+## [2.1.1](https://github.com/biemch/biem-github-actions-playground/compare/2.1.1...v2.1.1) (2025-01-16)
 
 
 ### Bug Fixes
@@ -43,7 +58,7 @@
 
 
 
-## [2.0.1](https://github.com/biemch/biem-github-actions-playground/compare/2.0.0...v2.0.1) (2025-01-16)
+## [2.0.1](https://github.com/biemch/biem-github-actions-playground/compare/2.0.3...v2.0.1) (2025-01-16)
 
 
 ### Bug Fixes
