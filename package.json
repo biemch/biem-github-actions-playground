@@ -1,6 +1,6 @@
 {
   "name": "biem-github-actions-playground",
-  "version": "2.5.1",
+  "version": "2.6.0",
   "description": "act-test",
   "type": "module",
   "author": "Michael Freund <michael@biem.ch>",
