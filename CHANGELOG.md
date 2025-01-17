@@ -1,9 +1,10 @@
-# [2.5.0](https://github.com/biemch/biem-github-actions-playground/compare/v2.2.0...v2.5.0) (2025-01-17)
+## [2.5.1](https://github.com/biemch/biem-github-actions-playground/compare/v2.2.0...v2.5.1) (2025-01-17)
 
 
 ### Bug Fixes
 
 * release tag prefix ([067936c](https://github.com/biemch/biem-github-actions-playground/commit/067936c7f4f03b47042bf0b337b5b65c23481ba3))
+* update download-artifact action to version 4 in release workflow ([2baedca](https://github.com/biemch/biem-github-actions-playground/commit/2baedcaf3827fef53dd545ec0f32632ac1a1909a))
 
 
 ### Features
